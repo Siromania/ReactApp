@@ -1,0 +1,26 @@
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  td, th {
+    display: table-cell;
+    vertical-align: inherit;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  .language{
+    margin-left:auto;
+    margin-right:auto;
+  }
